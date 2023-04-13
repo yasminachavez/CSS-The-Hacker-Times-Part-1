@@ -1,1 +1,94 @@
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Roboto+Slab:wght@500&family=Source+Sans+Pro:wght@200;400;600&display=swap');
+
+body {
+    background-color: lightgray
+}
+.newspaper-container {
+    background-color: white;
+    padding: 2em;
+}
+h1 {
+    font-size: 250%;
+    text-align: center;
+}
+
+.top-nav li {
+ display: inline-block;
+ margin: 5px;
+ font-size: x-small; 
+ padding: 2px;
+ text-align: center;
+}
+.top-nav ul {
+    text-align: center;
+    border-bottom-style: solid;
+    border-top-style: solid;
+    border-width: 1px;
+    border-color: #eee;
+}
+.top-nav a {
+    color: #ddd;
+    text-decoration: none;
+}
+h5 {
+    color: #dd3232
+}
+main p {
+    text-align: justify;
+    margin-left: 1em;
+    margin-right: 1em;
+}
+section p {
+    text-align: justify;
+    width: 95%;
+}
+.more-articles {
+    display: inline-flex;
+    padding: 1em;
+    gap: .5em;
+}
+main img {
+    width: 100%;
+}
+main {
+    border-bottom: 1px solid #eee;
+}
+section img {
+    width: 95%;
+}
+
+h2, h4, h5, p, .date {
+    font-family: sans-serif;
+}
+.grid {
+    display: grid;
+    grid: 150px / auto auto auto;
+    grid-gap: 10px;
+    background-color: #dadadb;
+    padding: 5px;
+    margin: 1em;
+}
+.grid > div {
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+}
+.bottom-nav li {
+    display: inline-block;
+    margin: 5px;
+    font-size: x-small; 
+    padding: 2px;
+    text-align: center;
+   }
+.bottom-nav ul {
+    text-align: center;
+    border-bottom-style: solid;
+    border-top-style: solid;
+    border-width: 1px;
+    border-color: #eee;
+}
+.bottom-nav a {
+    color: pink;
+    text-decoration: none;
+}
