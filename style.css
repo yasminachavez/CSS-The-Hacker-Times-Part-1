@@ -6,6 +6,8 @@ body {
 .newspaper-container {
     background-color: white;
     padding: 2em;
+    width: 70vw;
+    margin:auto;
 }
 h1 {
     font: Abril Fatface;
@@ -51,7 +53,13 @@ main p {
 }
 section p {
     text-align: justify;
-    width: 95%;
+    width: 85%;
+    /*border: 1px solid red;*/
+}
+.one p, .two p {
+ padding-left: 1em;
+ padding-right:1em;
+
 }
 .more-articles {
     display: flex;
