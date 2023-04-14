@@ -8,10 +8,18 @@ body {
     padding: 2em;
 }
 h1 {
+    font: Abril Fatface;
     font-size: 250%;
     text-align: center;
 }
-
+.top-nav {
+    position: sticky;
+    top: 0px;
+    background-color: white;
+}
+.top-nav a:hover {
+    color:red;
+}
 .top-nav li {
  display: inline-block;
  margin: 5px;
@@ -30,6 +38,9 @@ h1 {
     color: #ddd;
     text-decoration: none;
 }
+h2 {
+    font: Roboto Slab;
+}
 h5 {
     color: #dd3232
 }
@@ -43,9 +54,9 @@ section p {
     width: 95%;
 }
 .more-articles {
-    display: inline-flex;
+    display: flex;
     padding: 1em;
-    gap: .5em;
+    gap: .5em;  
 }
 main img {
     width: 100%;
@@ -57,8 +68,8 @@ section img {
     width: 95%;
 }
 
-h2, h4, h5, p, .date {
-    font-family: sans-serif;
+p, .date {
+    font-family: Source Sans Pro;
 }
 .grid {
     display: grid;
@@ -91,4 +102,7 @@ h2, h4, h5, p, .date {
 .bottom-nav a {
     color: pink;
     text-decoration: none;
+}
+.bottom-nav a:hover {
+    color:red;
 }
